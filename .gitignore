@@ -1,0 +1,12 @@
+# Ignorar módulos e arquivos temporários
+node_modules/
+.env
+.DS_Store
+
+# Ignorar cache e logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# NÃO ignore auth (precisa ser versionado)
+!auth/
