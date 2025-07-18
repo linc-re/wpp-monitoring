@@ -1,0 +1,16 @@
+{
+  "name": "bot-wpp-monitor",
+  "version": "1.0.0",
+  "description": "Bot para monitorar saídas de grupo do WhatsApp com Baileys",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["whatsapp", "baileys", "bot", "monitoramento"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "pino": "^8.0.0"
+  }
+}
